@@ -16,10 +16,6 @@ class Tweeter extends AsyncTask<String, Void, Boolean> {
     static String TWITTER_ACCESS_TOKEN = "841386099272425472-cwtd4Tos4t5MPbooVMBI1Bd3HdZsTUo";
     static String TWITTER_ACCESS_TOKEN_SECRET = "Vm210Oa5I3eOoMFEmThHXjW3YvKEVolX0NxvCdu7kzoU9";
 
-    //    //Account Login Credentials
-//    static final String USERNAME = "STEMcon_tweeter";
-//    static final String PASSWORD = "R!u1z1J^!FN3";
-
     @Override
     protected Boolean doInBackground(String... message) {
         //Post Tweet Message
